@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Nasalization';
+  src: local('Nasalization'),
+    url(./fonts/nasalization-rg.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Nasalization, comic sans ms;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 180px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  align-items: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
